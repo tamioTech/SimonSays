@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C7A6B23B253259F90022C729 /* CircularButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6B23A253259F90022C729 /* CircularButtons.swift */; };
+		C7A6B245253264750022C729 /* SwitchCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A6B244253264750022C729 /* SwitchCase.swift */; };
 		C7AA9EC2252B3E08007F1DC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA9EC1252B3E08007F1DC2 /* AppDelegate.swift */; };
 		C7AA9EC4252B3E08007F1DC2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA9EC3252B3E08007F1DC2 /* SceneDelegate.swift */; };
 		C7AA9EC6252B3E08007F1DC2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AA9EC5252B3E08007F1DC2 /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C7A6B23A253259F90022C729 /* CircularButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularButtons.swift; sourceTree = "<group>"; };
+		C7A6B244253264750022C729 /* SwitchCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCase.swift; sourceTree = "<group>"; };
 		C7AA9EBE252B3E08007F1DC2 /* SimonSays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimonSays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7AA9EC1252B3E08007F1DC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C7AA9EC3252B3E08007F1DC2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C7328A8C25324830003079AB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7AA9EC5252B3E08007F1DC2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C7328A8E2532483E003079AB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7AA9EC7252B3E08007F1DC2 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C7328A8F2532484E003079AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7A6B23A253259F90022C729 /* CircularButtons.swift */,
+				C7A6B244253264750022C729 /* SwitchCase.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C7AA9EB5252B3E08007F1DC2 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +85,14 @@
 		C7AA9EC0252B3E08007F1DC2 /* SimonSays */ = {
 			isa = PBXGroup;
 			children = (
-				C7AA9EC1252B3E08007F1DC2 /* AppDelegate.swift */,
-				C7AA9EC3252B3E08007F1DC2 /* SceneDelegate.swift */,
-				C7AA9EC5252B3E08007F1DC2 /* ViewController.swift */,
-				C7AA9EC7252B3E08007F1DC2 /* Main.storyboard */,
+				C7328A8F2532484E003079AB /* Model */,
+				C7328A8C25324830003079AB /* Controller */,
+				C7328A8E2532483E003079AB /* View */,
 				C7AA9ECA252B3E0A007F1DC2 /* Assets.xcassets */,
 				C7AA9ECC252B3E0A007F1DC2 /* LaunchScreen.storyboard */,
 				C7AA9ECF252B3E0A007F1DC2 /* Info.plist */,
+				C7AA9EC3252B3E08007F1DC2 /* SceneDelegate.swift */,
+				C7AA9EC1252B3E08007F1DC2 /* AppDelegate.swift */,
 			);
 			path = SimonSays;
 			sourceTree = "<group>";
@@ -137,6 +167,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A6B245253264750022C729 /* SwitchCase.swift in Sources */,
+				C7A6B23B253259F90022C729 /* CircularButtons.swift in Sources */,
 				C7AA9EC6252B3E08007F1DC2 /* ViewController.swift in Sources */,
 				C7AA9EC2252B3E08007F1DC2 /* AppDelegate.swift in Sources */,
 				C7AA9EC4252B3E08007F1DC2 /* SceneDelegate.swift in Sources */,
